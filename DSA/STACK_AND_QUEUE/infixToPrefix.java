@@ -2,6 +2,13 @@
 
 import java.util.*;
 
+/**
+ * 
+ * just 3 steps
+ * 1. reverse the infix
+ * 2. Do infix to postfix conversion
+ * 3. reverse the answer.
+ */
 public class infixToPrefix {
     public static String inToPost(String s) {
         int n = s.length();
