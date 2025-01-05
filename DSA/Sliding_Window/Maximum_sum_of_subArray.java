@@ -33,3 +33,26 @@ class Maximum_sum_of_subArray {
         System.out.println(ans);
     }
 }
+
+// int arr[] = {2,5,1,8,2,9,1};
+// int n = 7;
+// int window = 3;
+
+// int i = 0;
+// int j = 0;
+// int sum = 0;
+// int maxi = Integer.MIN_VALUE;
+
+// while(j< n){
+// sum = sum + arr[j];
+
+// if(j-i+1 < window){
+// j++;
+// }else if(j-i+1 == window){
+// maxi = Math.max(maxi,sum);
+// sum = sum - arr[i];
+// i++;
+// j++;
+// }
+// }
+// System.out.println(maxi);
