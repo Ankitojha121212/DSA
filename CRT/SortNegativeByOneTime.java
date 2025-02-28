@@ -3,7 +3,6 @@ public class SortNegativeByOneTime {
         int arr[] = { -4, 3, -1, 5, 3, 7 };
         int i = 0;
         int j = 0;
-
         while (i < arr.length) {
             j = i + 1;
             while (j < arr.length) {
